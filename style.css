@@ -1,0 +1,140 @@
+
+.fondo {
+    background-size: cover ;
+}
+#divpoesia {
+
+    height: 630px;
+    width: 400px;
+    padding: 10px;
+
+
+    margin: auto;
+}
+#cuadro {
+    margin: 2.5% 2.5%;
+    background-color: #00000060;
+    height: 95%;
+    width: 95%;
+    box-shadow: 0 0 20px 20px #00000060
+
+
+}
+p {
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+
+}
+
+.po {
+    text-align: center;
+
+}
+
+.poe {
+    text-align: right;
+    margin-right: 30px;
+}
+
+#entrada {
+    font-size: 30px;
+
+
+
+
+
+}
+.botones {
+    text-align: center;
+}
+button {
+    transition-duration: 0.5s;
+    margin: 10px 30px;
+    width: 100px;
+    height: 45px;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-family: 'Archivo', sans-serif;
+    border-color: transparent;
+}
+
+button:hover {
+    transition-duration: 0.5s;
+    background-color: #00000080;
+
+
+}
+
+.button2 {
+    background-color: crimson;
+    color: white;
+}
+
+
+.x {
+    color: #2b282e
+}
+
+#0 {
+    font-family: 'Cutive Mono', monospace;
+}
+
+#1 {
+  font-family: 'Spectral', serif;
+
+}
+
+#2 {
+    font-family: 'WindSong', cursive;
+}
+
+#3 {
+    font-family: 'Zilla Slab Highlight', cursive;
+}
+
+#botonesestilo{
+    width: 10%;
+    float: left;
+
+}
+
+#generate {
+    width: 10%;
+
+
+    float: left;
+}
+
+#btn-generate {
+
+    visibility: hidden;
+}
+
+#portada {
+    position: absolute;
+    left: 0;
+    top: 0 ;
+
+
+}
+
+#botonportada {
+
+    position: absolute;
+    left: 43%;
+    top: 30%;
+    height: 80px;
+    width: 120px;
+    background-color: white;
+    color: black;
+}
+
+#botonportada:hover {
+
+
+    background-color: #FFFFFF70;
+    color: black;
+}
